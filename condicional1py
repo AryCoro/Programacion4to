@@ -1,0 +1,10 @@
+ #calor de la temperatura
+input = temperatura = 28
+if temperatura < 20:
+    if temperatura > 10:
+            print("Nivel azul")
+    else:
+        print("Nivel verde")
+elif temperatura < 30:
+    print("Nivel rojo")
+
